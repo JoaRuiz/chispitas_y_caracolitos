@@ -9,8 +9,6 @@ font-family: sans-serif;
 }
 
 
-
-
 /* ==========HEADER PRINCIPAL========= */
 .header {
     background-image: linear-gradient(
@@ -48,6 +46,30 @@ font-family: sans-serif;
     justify-content: end;
     padding: 5px;
 }
+
+.offcanvas-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.offcanvas-body {
+    margin-bottom:  3rem;
+}
+
+.offcanvas {
+    background: linear-gradient(to right, #A7A6CB, #8989BA);
+}
+
+.offcanvas-body, .logo-menu-burger img {
+    width: 250px;
+}
+
+.d-lg-none {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
 
 .header__menu {
     display: none;
@@ -293,6 +315,11 @@ flex-direction: column;
 
 /* ==========MONITOR CHICO========= */
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
+    body{
+        background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
 
 /* ==========HEADER PRINCIPAL========= */
     .header {
@@ -316,6 +343,10 @@ flex-direction: column;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+.navbar {
+    display: none;
+}
 
     .header__menu {
         display: flex;
@@ -400,11 +431,7 @@ background: linear-gradient(to bottom, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, 
 
 /* ==========MAIN INSCRIPCIONES========= */
 
-body{
-    background: #D3CCE3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 
 .form__contenedor {
     display: grid;
@@ -531,7 +558,6 @@ textarea {
 
 /* ==========HEADER PRINCIPAL========= */
     .header {
-       
         height: 100vh;
         width: 100vw;
         display: grid;
@@ -550,6 +576,10 @@ textarea {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+    }
+
+.navbar {
+        display: none;
     }
 
     .header__menu {
