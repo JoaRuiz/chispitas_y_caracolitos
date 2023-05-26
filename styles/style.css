@@ -350,6 +350,58 @@ h1 {
     justify-content: center;
 }
 
+/* ==========MAIN HISTORIA========= */
+
+.servicios__h2 {
+    margin: 1.5rem;
+}
+
+.servicios__body {
+    background: linear-gradient(90deg, #FF9A9E 0%, #FECFEF 99%, #FECFEF 100%);
+}
+
+
+.servicios__imagenes {
+    width: 100vw;
+    padding: 1rem;
+}
+
+.servicios__contenedor2 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios__section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.servicios__contenedor3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.servicios__section3 .historia__span {
+    margin-left: 1.3rem;
+}
+
+.servicios__contenedor4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-bottom: 5.5rem;
+}
+
+.servicios__section4 .historia__h4 {
+    display: flex;
+    justify-content: center;
+}
+
 /* ==========TABLET========= */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
@@ -424,10 +476,10 @@ h1 {
 
     a {
         text-decoration: none;
-        background: linear-gradient(to right, #E9E4F0, #E9E4F0);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: linear-gradient(to right, #0BA360, #3CBA92);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
     }
 
 .navbar {
