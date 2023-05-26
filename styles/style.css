@@ -73,6 +73,11 @@ footer {
     gap: 3rem;
 }
 
+.header__item a{
+    text-decoration: none;
+    color:  #5D4157;
+    font-family: Ultra;
+}
 
 .header__menu {
     display: none;
@@ -350,7 +355,7 @@ h1 {
     justify-content: center;
 }
 
-/* ==========MAIN HISTORIA========= */
+/* ==========MAIN SERVICIOS========= */
 
 .servicios__h2 {
     margin: 1.5rem;
@@ -400,6 +405,11 @@ h1 {
 .servicios__section4 .historia__h4 {
     display: flex;
     justify-content: center;
+}
+
+/* ==========MAIN GALERIA========= */
+.galeria__body {
+    background: linear-gradient(90deg, #FF9A9E 0%, #FECFEF 99%, #FECFEF 100%);
 }
 
 /* ==========TABLET========= */
