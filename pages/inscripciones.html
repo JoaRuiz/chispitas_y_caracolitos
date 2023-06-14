@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles/stylemap.css">
+</head>
+
+<body class="form__body">
+
+    <header class="header-secundario">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <!-- NAV BUTTON  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- OFFCANVAS MAIN CONTAINER START -->
+            <section class="offcanvas offcanvas-start" id="menuLateral" tabindex="-1">
+                <div class="offcanvas-header" data-bs-theme="dark">
+                    <button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas">
+                    </button>
+                </div>
+                <!-- OFF CANVAS MENU LINKS  START-->
+                <div class="offcanvas-body d-flex flex-column justify-content-between align-self-center px-0">
+                    <img src="../imagenes/logo-chispitas-transformed-sin fondo-sin jardin maternal.png"
+                        class="logo-menu-burger" alt="logo institucion">
+                    <ul class="navbar-nav fs-5 justify-content-evenly align-self-center">
+                        <li class="header__item mb-3"><a href="./historia.html">Historia</a></li>
+                        <li class="header__item mb-3"><a href="./servicios.html">Servicios</a></li>
+                        <li class="header__item mb-3"><a href="./galeria.html">Galeria</a></li>
+                    </ul>
+                    <!-- enlaces redes sociales -->
+                    <div class="d-lg-none align-self-center py-3">
+                        <a href="" target="_blank"><img src="../imagenes/whatsapp-piola.png" alt="whatsapp" width="50px"
+                                height="50px">
+                            <!--Logo wpp con link-->
+                        </a>
+                        <a href="https://www.instagram.com/chispitasycaracolitos/" target="_blank"><img
+                                src="../imagenes/instagram-piola (1).png" alt="instagram" width="50px" height="50px">
+                            <!--logo ig con link-->
+                        </a>
+                        <a href="https://www.facebook.com/chispitasycaracolitos" target="_blank"><img
+                                src="../imagenes/facebook.png" alt="facebook" width="50px" height="50px">
+                            <!--logo fb con link-->
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- OFFCANVAS MAIN CONTAINER END  -->
+            </div>
+        </nav>
+
+        <div class="header__container-logo">
+            <a href="../index.html"><img class="header__logo-inscripciones"
+                    src="../imagenes/logo-chispitas-transformed-sin fondo.png" alt="Logo de la institucion"></a>
+        </div>
+
+        <div class="titulo ">
+            <h2>Formulario de Inscripcion</h2>
+        </div>
+
+        <!-- <div class="header__container-slogan2">
+            <img class="header__slogan-inscripciones"
+                src="../imagenes/logo-chispitas-transformed-sin fondo-sin jardin maternal.png" alt="Logo Slogan">
+        </div> -->
+
+
+    </header>
+
+    <main class="main">
+
+
+
+        <form class="form">
+
+            <div class="form__contenedor">
+
+                <div class="form__mail">
+                    <label for="correo">Correo eléctronico:</label>
+                    <input type="email" id="correo" required placeholder="ejemplo@ejemplo.com">
+                </div>
+
+                <div class="form__name">
+                    <label for="nombre-niño">Nombre Completo del Niño/a:</label>
+                    <input type="text" id="nombre-niño" required>
+                </div>
+
+                <div class="form__dni">
+                    <label for="dni">Numero de DNI:</label>
+                    <input type="number" id="dni" required>
+                </div>
+
+                <div class="form__candelar">
+                    <label for="calendario">Fecha de Nacimiento:</label>
+                    <input type="date" id="calendario" required>
+                </div>
+
+                <div class="form__social">
+                    <label for="obra-social">Obra Social del Niño/a:</label>
+                    <input type="text" id="obra-social" required>
+                </div>
+
+                <div class="form__address">
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio" required>
+                </div>
+
+                <div class="form__characteristics">
+                    <label for="caracteristicas">Acerca del niño/a:</label>
+                    <textarea></textarea>
+                </div>
+                <div class="form__mother">
+                    <label for="datos.madre">Datos Personales de la Madre:</label>
+                    <textarea></textarea>
+                </div>
+                <div class="form__father">
+                    <label for="datos.padre">Datos Personales del Padre:</label>
+                    <textarea></textarea>
+                </div>
+                <div class="form__authorized">
+                    <label for="datos.autorizado">Personas Autorizadas a retirarlo/a:</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form__maternal-verano">
+                    <label for="asiste" class="form__asiste">¿Asiste al Maternal Verano?:</label>
+                    <label for="eyf" class="form__radio">
+                        <input type="radio" id="eyf" name="1"> Enero y Febrero
+                    </label>
+                    <label for="e" class="form__radio">
+                        <input type="radio" id="e" name="1"> Enero
+                    </label>
+                    <label for="f" class="form__radio">
+                        <input type="radio" id="f" name="1"> Febrero
+                    </label>
+                    <label for="n" class="form__radio">
+                        <input type="radio" id="n" name="1"> No Asistio
+                    </label>
+                </div>
+                <div class="form__shift">
+                    <label for="turno" class="form__turno">Turno año Lectivo:</label>
+                    <label for="m" class="form__radio">
+                        <input type="radio" id="m" name="2"> Mañana (7:45hs a 15hs)
+                    </label>
+                    <label for="md" class="form__radio">
+                        <input type="radio" id="md" name="2"> Mañana Didáctico (9hs a 13hs)
+                    </label>
+                    <label for="t" class="form__radio">
+                        <input type="radio" id="t" name="2"> Tarde (15:30hs a 20:30hs)
+                    </label>
+                    <label for="td" class="form__radio">
+                        <input type="radio" id="td" name="2"> Tarde Didactico (16:30 a 20:30)
+                    </label>
+                    <label for="r" class="form__radio">
+                        <input type="radio" id="r" name="2"> Rotativo
+                    </label>
+                </div>
+                <div class="form__hour">
+                    <label for="hour" class="form__cantidad">Cantidad de horas diarias:</label>
+                    <label for="3h" class="form__radio">
+                        <input type="radio" id="3h" name="3"> 3 horas diarias
+                    </label>
+                    <label for="4h" class="form__radio">
+                        <input type="radio" id="4h" name="3"> 4 horas diarias
+                    </label>
+                    <label for="5h" class="form__radio">
+                        <input type="radio" id="5h" name="3"> 5 horas diarias
+                    </label>
+                    <label for="6h" class="form__radio">
+                        <input type="radio" id="6h" name="3"> 6 horas diarias
+                    </label>
+                    <label for="6hh" class="form__radio">
+                        <input type="radio" id="6hh" name="3"> Mas de 6 horas diarias
+                    </label>
+                </div>
+
+                <div class="form__documentation">
+                    <label for="archivo" class="form__documentos">Fotocopia del DNI:
+                        <input type="file" id="archivo1" name="archivo" class="form__archivos" required>
+                    </label>
+                    <label for="archivo2" class="form__documentos">Fotocopia del Carnet de Vacunas:
+                        <input type="file" id="archivo2" name="archivo" class="form__archivos" required>
+                    </label>
+                    <label for="archivo3" class="form__documentos">Ficha Medica:
+                        <input type="file" id="archivo3" name="archivo" class="form__archivos" required>
+                    </label>
+                </div>
+
+                <div class="form__botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+        </form>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__container-menu">
+            <h2 clas="footer__h2">Chispitas y Caracolitos</h2>
+            <nav>
+                <ul class="footer__menu">
+                    <li class="footer__menu-li"><a href="../paginas/historia.html">
+                            Historia <!--Texto con link a pagina Historia-->
+                        </a></li>
+                    <li class="footer__menu-li"><a href="../paginas/servicios.html">
+                            Servicos <!--Texto con link a pagina Servicios-->
+                        </a></li>
+                    <li class="footer__menu-li"><a href="../paginas/galeria.html">
+                            Galeria<!--Texto con link a pagina Areas Especiales-->
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer__container-contacto">
+            <span class="footer__span">
+                Contacto y Redes:
+            </span>
+            <div class="footer__contacto">
+                <a href="" target="_blank" class="wp"><img src="../imagenes/whatsapp-piola.png" alt="whatsapp" width="50px"
+                    height="50px" >
+                    <!--Logo wpp con link-->
+                </a>
+                <a href="https://www.instagram.com/chispitasycaracolitos/" target="_blank" class="ig"><img
+                    src="../imagenes/instagram-piola (1).png" alt="instagram" width="50px" height="50px" >
+                    <!--logo ig con link-->
+                </a>
+                <a href="https://www.facebook.com/chispitasycaracolitos" target="_blank" class="fb"><img src="../imagenes/facebook.png"
+                    alt="facebook" width="50px" height="50px" >
+                    <!--logo fb con link-->
+                </a>
+                <img src="../imagenes/medios-de-comunicacion-social.png" alt="decoracion redes sociales" width="40px"
+                height="35px" class="decoracion"> <!--Imagen decoracion-->
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
