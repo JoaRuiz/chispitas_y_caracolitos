@@ -1,0 +1,86 @@
+.footer {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+    .footer {
+        display: flex;
+        height: 15vh;
+        border-top: 1px solid rgba(68, 68, 68, 0.35);
+
+        &__container-menu {
+            margin-top: 2rem;
+            margin-left: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+
+            &__menu {
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                list-style: none;
+                justify-content: center;
+
+                &__container-contacto {
+                    margin-top: 2rem;
+                    margin-left: 5rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5rem;
+                    align-items: center;
+
+                    &__contacto {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 2rem;
+                        list-style: none;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .footer {
+        display: flex;
+        gap: 10rem;
+
+        &__container-menu {
+            margin-top: 2rem;
+            margin-left: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+
+            &__menu {
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                list-style: none;
+                justify-content: center;
+
+                &__container-contacto {
+                    margin-top: 2rem;
+                    margin-left: 5rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5rem;
+                    align-items: center;
+
+                    &__contacto {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 2rem;
+                        list-style: none;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}

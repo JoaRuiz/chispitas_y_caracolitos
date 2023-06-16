@@ -1,0 +1,61 @@
+.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1rem;
+    border-radius: 3rem;
+    padding: 1rem;
+    background: linear-gradient(to right, #0BA360, #3CBA92);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-color:  #5b756a;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #79787888;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+    .button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 2rem;
+        border-radius: 3rem;
+        padding: 1rem;
+        grid-area: inscri;
+        background: linear-gradient(to right, #96DEDA, #50C9C3);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+}
+
+@media screen and (min-width: 1600px) {
+    .button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 2.5rem;
+        border-radius: 3rem;
+        padding: 1rem;
+        grid-area: inscri;
+        background: linear-gradient(to right, #96DEDA, #50C9C3);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+
+}
+

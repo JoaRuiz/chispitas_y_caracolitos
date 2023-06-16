@@ -1,0 +1,72 @@
+.servicios {
+    &__body {
+        background: linear-gradient(90deg, #FF9A9E 0%, #FECFEF 99%, #FECFEF 100%);
+
+        &__section-map {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+
+
+            &__where {
+                align-self: center;
+                font-size: 0.8rem;
+
+                &__where-li {
+                    margin-bottom: 1rem;
+                    list-style: none;
+
+                    &__map {
+                        height: 20rem;
+                        width: 10rem;
+                        border-radius: 2rem;
+                        border: 1px solid black;
+                        margin-left: 1rem;
+
+
+                        &__h2 {
+                            display: flex;
+                            justify-content: center;
+                            margin: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+
+    .servicios {
+        &__section-map {
+            margin-top: 5rem;
+            gap: 3rem;
+
+
+            &__map {
+                width: 50vw;
+                height: 30vh;
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .servicios {
+        &__section-map {
+            margin-top: 5rem;
+            gap: 3rem;
+
+
+            &__map {
+                width: 70vw;
+                height: 30vh;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,41 @@
+.offcanvas-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.offcanvas-body {
+    margin-bottom:  3rem;
+}
+
+.offcanvas {
+    background: linear-gradient(to right, #A7A6CB, #8989BA);
+}
+
+.offcanvas-body, .logo-menu-burger img {
+    width: 250px;
+}
+
+.d-lg-none {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.header__item a{
+    text-decoration: none;
+    color:  #5D4157;
+    font-family: Ultra;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+    .navbar {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .navbar {
+        display: none;
+    }
+}

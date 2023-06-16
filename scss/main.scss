@@ -1,8 +1,9 @@
-@import "base";
+@import "./base";
 
-@import "./components/header";
 @import "./components/sections";
 @import "./components/footer";
+@import "./components/burger";
+@import "./components/sections";
 
 @import "./pages/index";
 @import "./pages/inscripciones";
