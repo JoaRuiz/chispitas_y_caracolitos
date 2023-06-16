@@ -83,7 +83,7 @@ footer {
     display: none;
 }
 
-.header__button {
+.button {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -426,7 +426,7 @@ h1 {
     width: 200px;
     }
 
-    .header__button {
+    .button {
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -550,7 +550,7 @@ h1 {
         height: 200px;
     }
 
-    .header__button {
+    .button {
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -907,7 +907,7 @@ footer {
         height: 200px;
     }
 
-    .header__button {
+    .button {
         position: fixed;
         bottom: 20px;
         right: 20px;
